@@ -1,14 +1,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    let size: CGFloat = 42
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        let image = Image("icon")
+            .resizable()
+            .scaledToFill()
+            .frame(width: size, height: size)
+            .cornerRadius(size / 2)
+            .overlay {
+                RoundedRectangle(cornerRadius: size / 2).stroke(Color.black, lineWidth: 4)
+            }
+
+        HStack {
+            image
+            Spacer()
+            image
+            Spacer()
+            image
+            Spacer()
+            image
+            Spacer()
+            image
         }
-        .padding()
+        .padding(16)
     }
 }
 
