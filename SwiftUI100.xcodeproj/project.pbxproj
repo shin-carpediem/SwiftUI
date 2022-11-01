@@ -21,6 +21,8 @@
 		F58AEBAD2903D32B0040B4D2 /* SwiftUI100UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58AEBAC2903D32B0040B4D2 /* SwiftUI100UITestsLaunchTests.swift */; };
 		F58AEBBA2903EB710040B4D2 /* NavigationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58AEBB92903EB710040B4D2 /* NavigationsView.swift */; };
 		F58AEBBC2903EC410040B4D2 /* NextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58AEBBB2903EC410040B4D2 /* NextView.swift */; };
+		F5BACCAC2911C5F300AA5998 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BACCAB2911C5F300AA5998 /* TextView.swift */; };
+		F5BACCAE2911C74D00AA5998 /* MoreTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BACCAD2911C74D00AA5998 /* MoreTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		F58AEBAC2903D32B0040B4D2 /* SwiftUI100UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI100UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F58AEBB92903EB710040B4D2 /* NavigationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationsView.swift; sourceTree = "<group>"; };
 		F58AEBBB2903EC410040B4D2 /* NextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextView.swift; sourceTree = "<group>"; };
+		F5BACCAB2911C5F300AA5998 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		F5BACCAD2911C74D00AA5998 /* MoreTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 				F51A083D2904098400B746CE /* ButtonView.swift */,
 				F51A083F29040A5100B746CE /* AlertView.swift */,
 				F51A084129040C1400B746CE /* InputView.swift */,
+				F5BACCAB2911C5F300AA5998 /* TextView.swift */,
+				F5BACCAD2911C74D00AA5998 /* MoreTextView.swift */,
 				F58AEB932903D32B0040B4D2 /* Assets.xcassets */,
 				F58AEB952903D32B0040B4D2 /* Preview Content */,
 			);
@@ -284,9 +290,11 @@
 				F51A083A2903FDF600B746CE /* PickerView.swift in Sources */,
 				F51A083C2904088700B746CE /* SwiftUITabView.swift in Sources */,
 				F51A084029040A5100B746CE /* AlertView.swift in Sources */,
+				F5BACCAE2911C74D00AA5998 /* MoreTextView.swift in Sources */,
 				F51A084229040C1400B746CE /* InputView.swift in Sources */,
 				F58AEBBC2903EC410040B4D2 /* NextView.swift in Sources */,
 				F51A083E2904098400B746CE /* ButtonView.swift in Sources */,
+				F5BACCAC2911C5F300AA5998 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
