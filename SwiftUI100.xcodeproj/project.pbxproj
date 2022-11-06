@@ -114,15 +114,13 @@
 			children = (
 				F58AEB8F2903D3280040B4D2 /* SwiftUI100App.swift */,
 				F51A083B2904088700B746CE /* SwiftUITabView.swift */,
+				F5A781052917B59200CB9DEE /* Navigation */,
+				F5A781042917B57A00CB9DEE /* Text */,
 				F58AEB912903D3280040B4D2 /* ImageView.swift */,
-				F58AEBB92903EB710040B4D2 /* NavigationsView.swift */,
-				F58AEBBB2903EC410040B4D2 /* NextView.swift */,
 				F51A08392903FDF600B746CE /* PickerView.swift */,
 				F51A083D2904098400B746CE /* ButtonView.swift */,
 				F51A083F29040A5100B746CE /* AlertView.swift */,
 				F51A084129040C1400B746CE /* InputView.swift */,
-				F5BACCAB2911C5F300AA5998 /* TextView.swift */,
-				F5BACCAD2911C74D00AA5998 /* MoreTextView.swift */,
 				F58AEB932903D32B0040B4D2 /* Assets.xcassets */,
 				F58AEB952903D32B0040B4D2 /* Preview Content */,
 			);
@@ -152,6 +150,24 @@
 				F58AEBAC2903D32B0040B4D2 /* SwiftUI100UITestsLaunchTests.swift */,
 			);
 			path = SwiftUI100UITests;
+			sourceTree = "<group>";
+		};
+		F5A781042917B57A00CB9DEE /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				F5BACCAB2911C5F300AA5998 /* TextView.swift */,
+				F5BACCAD2911C74D00AA5998 /* MoreTextView.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		F5A781052917B59200CB9DEE /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F58AEBB92903EB710040B4D2 /* NavigationsView.swift */,
+				F58AEBBB2903EC410040B4D2 /* NextView.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
