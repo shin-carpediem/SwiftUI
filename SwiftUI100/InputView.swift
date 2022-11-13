@@ -2,7 +2,9 @@ import SwiftUI
 
 struct InputView: View {
     @State var numberString = ""
+
     @State var isShownAlert = false
+
     @State var isShownSheet = false
     
     var body: some View {

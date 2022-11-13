@@ -23,6 +23,9 @@
 		F58AEBBC2903EC410040B4D2 /* NextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58AEBBB2903EC410040B4D2 /* NextView.swift */; };
 		F5BACCAC2911C5F300AA5998 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BACCAB2911C5F300AA5998 /* TextView.swift */; };
 		F5BACCAE2911C74D00AA5998 /* MoreTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BACCAD2911C74D00AA5998 /* MoreTextView.swift */; };
+		F5DD0003292114310014F02E /* CompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD0002292114310014F02E /* CompleteView.swift */; };
+		F5DD0005292114E90014F02E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD0004292114E90014F02E /* ContentView.swift */; };
+		F5DD00072921150E0014F02E /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD00062921150E0014F02E /* EmailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,9 @@
 		F58AEBBB2903EC410040B4D2 /* NextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextView.swift; sourceTree = "<group>"; };
 		F5BACCAB2911C5F300AA5998 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		F5BACCAD2911C74D00AA5998 /* MoreTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTextView.swift; sourceTree = "<group>"; };
+		F5DD0002292114310014F02E /* CompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteView.swift; sourceTree = "<group>"; };
+		F5DD0004292114E90014F02E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5DD00062921150E0014F02E /* EmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +120,9 @@
 			children = (
 				F58AEB8F2903D3280040B4D2 /* SwiftUI100App.swift */,
 				F51A083B2904088700B746CE /* SwiftUITabView.swift */,
-				F5A781052917B59200CB9DEE /* Navigation */,
 				F5A781042917B57A00CB9DEE /* Text */,
+				F5A781052917B59200CB9DEE /* Navigation */,
+				F5A781062917B92900CB9DEE /* SplashNavigation */,
 				F58AEB912903D3280040B4D2 /* ImageView.swift */,
 				F51A08392903FDF600B746CE /* PickerView.swift */,
 				F51A083D2904098400B746CE /* ButtonView.swift */,
@@ -168,6 +175,16 @@
 				F58AEBBB2903EC410040B4D2 /* NextView.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F5A781062917B92900CB9DEE /* SplashNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				F5DD0004292114E90014F02E /* ContentView.swift */,
+				F5DD00062921150E0014F02E /* EmailView.swift */,
+				F5DD0002292114310014F02E /* CompleteView.swift */,
+			);
+			path = SplashNavigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,12 +320,15 @@
 				F58AEB922903D3280040B4D2 /* ImageView.swift in Sources */,
 				F58AEBBA2903EB710040B4D2 /* NavigationsView.swift in Sources */,
 				F58AEB902903D3280040B4D2 /* SwiftUI100App.swift in Sources */,
+				F5DD00072921150E0014F02E /* EmailView.swift in Sources */,
 				F51A083A2903FDF600B746CE /* PickerView.swift in Sources */,
 				F51A083C2904088700B746CE /* SwiftUITabView.swift in Sources */,
+				F5DD0003292114310014F02E /* CompleteView.swift in Sources */,
 				F51A084029040A5100B746CE /* AlertView.swift in Sources */,
 				F5BACCAE2911C74D00AA5998 /* MoreTextView.swift in Sources */,
 				F51A084229040C1400B746CE /* InputView.swift in Sources */,
 				F58AEBBC2903EC410040B4D2 /* NextView.swift in Sources */,
+				F5DD0005292114E90014F02E /* ContentView.swift in Sources */,
 				F51A083E2904098400B746CE /* ButtonView.swift in Sources */,
 				F5BACCAC2911C5F300AA5998 /* TextView.swift in Sources */,
 			);

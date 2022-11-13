@@ -2,7 +2,6 @@ import SwiftUI
 
 struct PickerView: View {
     var targetList = ["A", "B", "C", "D"]
-    @State private var selectedTarget = 0
     
     var body: some View {
         HStack {
@@ -21,6 +20,10 @@ struct PickerView: View {
         }
         .padding(16)
     }
+    
+    /// - Private
+    
+    @State private var selectedTarget = 0
 }
 
 struct PickerView_Previews: PreviewProvider {

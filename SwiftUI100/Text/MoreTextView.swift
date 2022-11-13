@@ -2,8 +2,11 @@ import SwiftUI
 
 struct MoreTextView: View {
     @State var text: String
+
     @State private var textHeight: CGFloat? = nil
+
     @State private var isTextFold = false
+
     @State private var isShownFoldButton = true
     
     // なぜこのプロパティがあればうまくいく？
