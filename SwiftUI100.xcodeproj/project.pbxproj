@@ -12,6 +12,7 @@
 		F51A083E2904098400B746CE /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A083D2904098400B746CE /* ButtonView.swift */; };
 		F51A084029040A5100B746CE /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A083F29040A5100B746CE /* AlertView.swift */; };
 		F51A084229040C1400B746CE /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A084129040C1400B746CE /* InputView.swift */; };
+		F53E0AC32A1517DE00F2D607 /* TextViewInVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53E0AC22A1517DE00F2D607 /* TextViewInVStack.swift */; };
 		F58AEB902903D3280040B4D2 /* SwiftUI100App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58AEB8F2903D3280040B4D2 /* SwiftUI100App.swift */; };
 		F58AEB922903D3280040B4D2 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58AEB912903D3280040B4D2 /* ImageView.swift */; };
 		F58AEB942903D32B0040B4D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58AEB932903D32B0040B4D2 /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 		F51A083D2904098400B746CE /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F51A083F29040A5100B746CE /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		F51A084129040C1400B746CE /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		F53E0AC22A1517DE00F2D607 /* TextViewInVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewInVStack.swift; sourceTree = "<group>"; };
 		F58AEB8C2903D3280040B4D2 /* SwiftUI100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI100.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58AEB8F2903D3280040B4D2 /* SwiftUI100App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI100App.swift; sourceTree = "<group>"; };
 		F58AEB912903D3280040B4D2 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				F51A083D2904098400B746CE /* ButtonView.swift */,
 				F51A083F29040A5100B746CE /* AlertView.swift */,
 				F51A084129040C1400B746CE /* InputView.swift */,
+				F53E0AC22A1517DE00F2D607 /* TextViewInVStack.swift */,
 				F58AEB932903D32B0040B4D2 /* Assets.xcassets */,
 				F58AEB952903D32B0040B4D2 /* Preview Content */,
 			);
@@ -321,6 +324,7 @@
 				F58AEBBA2903EB710040B4D2 /* NavigationsView.swift in Sources */,
 				F58AEB902903D3280040B4D2 /* SwiftUI100App.swift in Sources */,
 				F5DD00072921150E0014F02E /* EmailView.swift in Sources */,
+				F53E0AC32A1517DE00F2D607 /* TextViewInVStack.swift in Sources */,
 				F51A083A2903FDF600B746CE /* PickerView.swift in Sources */,
 				F51A083C2904088700B746CE /* SwiftUITabView.swift in Sources */,
 				F5DD0003292114310014F02E /* CompleteView.swift in Sources */,
